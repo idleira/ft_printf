@@ -6,11 +6,11 @@
 #    By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/29 19:21:27 by ibeliaie          #+#    #+#              #
-#    Updated: 2023/05/30 12:55:29 by ibeliaie         ###   ########.fr        #
+#    Updated: 2023/05/30 13:19:54 by ibeliaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = printf.a
+NAME = libftprintf.a
 
 SRC =	ft_printf.c    \
 		txt_util.c  \
