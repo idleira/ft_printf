@@ -6,13 +6,13 @@
 /*   By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/27 12:09:03 by ibeliaie          #+#    #+#             */
-/*   Updated: 2023/05/30 12:44:40 by ibeliaie         ###   ########.fr       */
+/*   Updated: 2023/05/30 14:15:18 by ibeliaie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static int	check(char str, va_list *args)
+static int	ft_check_fs(char str, va_list *args)
 {
 	int	count;
 
@@ -49,7 +49,7 @@ int	ft_printf(const char *str, ...)
 	{
 		if (str[i] == '%')
 		{
-			count += check(str[i + 1], &args);
+			count += ft_check_fs(str[i + 1], &args);
 			i += 2;
 		}
 		else
