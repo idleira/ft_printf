@@ -6,16 +6,17 @@
 #    By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/29 19:21:27 by ibeliaie          #+#    #+#              #
-#    Updated: 2023/05/30 13:19:54 by ibeliaie         ###   ########.fr        #
+#    Updated: 2023/05/30 14:14:28 by ibeliaie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
-SRC =	ft_printf.c    \
-		txt_util.c  \
+SRC =	txt_util.c  \
 		nbr_util.c  \
-		hex_util.c
+		hex_util.c  \
+		ft_printf.c \
+		ft_int_len.c 
 
 OBJ = $(SRC:.c=.o)
 
