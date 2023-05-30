@@ -6,29 +6,11 @@
 /*   By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/29 16:01:11 by ibeliaie          #+#    #+#             */
-/*   Updated: 2023/05/30 13:54:02 by ibeliaie         ###   ########.fr       */
+/*   Updated: 2023/05/30 14:07:43 by ibeliaie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
-/* count length of integer */
-int	ft_int_len(int n)
-{
-	int	len;
-
-	len = 0;
-	if (n == 0)
-		return (1);
-	if (n < 0)
-		n = -n;
-	while (n != 0)
-	{
-		len++;
-		n /= 10;
-	}
-	return (len);
-}
 
 int	ft_printnbr(int n)
 {
@@ -57,7 +39,7 @@ int	ft_printnbr(int n)
 	return (i);
 }
 
-int	ft_printunsign(unsigned long n)
+int	ft_printunsign(unsigned int n)
 {
 	int		i;
 	char	c;

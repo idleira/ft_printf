@@ -6,7 +6,7 @@
 /*   By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/28 13:32:54 by ibeliaie          #+#    #+#             */
-/*   Updated: 2023/05/30 11:41:52 by ibeliaie         ###   ########.fr       */
+/*   Updated: 2023/05/30 14:12:30 by ibeliaie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int				ft_printstr(char *str);
 
 int				ft_int_len(int n);
 int				ft_printnbr(int n);
-int				ft_printunsign(unsigned long n);
+int				ft_printunsign(unsigned int n);
 
 int				ft_int_len(int n);
 int				ft_printptr(void *ptr);
