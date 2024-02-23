@@ -1,4 +1,4 @@
-# ft_printf
+# ft_printf - @42Wolfsburg
 ## description
 this project is pretty straight forward.
 
