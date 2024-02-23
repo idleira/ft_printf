@@ -1,6 +1,7 @@
 # ft_printf
 ## description
 this project is pretty straight forward.
+
 we recode printf and learn how to use variadic arguments.
 
 ## usage
