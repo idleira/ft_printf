@@ -4,6 +4,18 @@ this project is pretty straight forward.
 
 we recode printf and learn how to use variadic arguments.
 
+## 
+
+these are some of the **resources** i used:
+
+• [a printf format reference page (cheat sheet) (c, java, scala, etc.)](https://alvinalexander.com/programming/printf-format-cheat-sheet/)
+
+• [mastering the printf function in c: a comprehensive guide](https://medium.com/@z_kiprotich/mastering-the-printf-function-in-c-a-comprehensive-guide-f6b4f52a1b1e)
+
+• printf reference from [cplusplus](https://cplusplus.com/reference/cstdio/printf/)
+
+## 
+
 ## usage
 1. clone this repository: `git clone git@github.com:idleira/ft_printf.git ft_printf && cd ft_printf`
 2. compile the library with `make`;
